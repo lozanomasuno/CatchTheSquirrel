@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    border: 1px solid rgb(238, 238, 238);
+    width: 18vh;
+    background-color: white;
+	display: grid;
+	grid-template-columns: auto auto auto;
+    
+}
+.container > div{
+    width: 50px;
+    height: 50px;    
+    margin: 2px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center; 
+}
+.container > div:hover{
+    cursor: pointer;  
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.redSelection{
+    background-color: rgb(255, 147, 147);
+}
